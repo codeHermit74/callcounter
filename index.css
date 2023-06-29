@@ -1,0 +1,57 @@
+body {
+    background-image: url("phonebooth.png");
+    background-size: cover;
+    font-family: Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+#call-section {
+    color: white;
+    width: 350px;
+    height: 310px;
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, .6);
+    margin: 20px auto 0 auto;
+    border-radius: 8px;
+}
+
+#count-el {
+    color: black;
+    width: 120px;
+    background-color: rgba(255, 255, 255, 1.0);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 100px;
+    margin: 0px 5px 5px 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: darkgreen;
+}
+
+#save-btn {
+    background: darkred;
+}
+
+
+
